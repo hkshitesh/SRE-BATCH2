@@ -9,7 +9,10 @@ public class MyCalculator {
 	 {
 		 return a-b;
 	 }
-
+	 public int Ravi_Puttur_div(int a, int b)
+	 {
+		 return a/b;
+	 }
 	public static void main(String[] args) {
 		
 		MyCalculator calc = new MyCalculator();	
