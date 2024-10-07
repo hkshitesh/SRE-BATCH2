@@ -8,10 +8,8 @@ public class MyCalculator {
 	 public int diff(int a, int b)
 	 {
 		 return a-b;
-	  public int spydiv(int a, int b)
-	 {
-		 return a/b;
-	 }}
+	 }
+	  
 	
 
 	public static void main(String[] args) {
@@ -21,5 +19,9 @@ public class MyCalculator {
 		System.out.println("Diff is : "+calc.diff(20, 10));
 
 	}
+	public int spydiv(int a, int b)
+	 {
+		 return a/b;
+	 }
 
 }
