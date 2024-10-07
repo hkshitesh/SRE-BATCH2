@@ -9,7 +9,10 @@ public class MyCalculator {
 	 {
 		 return a-b;
 	 }
-
+	 public int ravivadd(int a, int b)
+	 {
+		 return b+a;
+	 }
 	public static void main(String[] args) {
 		
 		MyCalculator calc = new MyCalculator();	
